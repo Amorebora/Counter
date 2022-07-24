@@ -16,31 +16,22 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j22-le-EyF">
-                                <rect key="frame" x="136" y="603" width="142" height="159"/>
+                                <rect key="frame" x="145" y="603" width="124.5" height="159"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="159" id="pSa-sI-GFu"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="CLICK">
-                                    <fontDescription key="titleFontDescription" name="Farah" family="Farah" pointSize="40"/>
+                                    <fontDescription key="titleFontDescription" name="Farah" family="Farah" pointSize="34"/>
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="plus:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0tU-Zn-Ohu"/>
+                                    <action selector="didTapclickButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="h5p-6I-ftK"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="counter     value :" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="02F-jG-k3e">
-                                <rect key="frame" x="37" y="184" width="340" height="68"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="68" id="FXn-c8-Lvf"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Farah" family="Farah" pointSize="46"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="go6-H2-z0Z">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Значение счётчика: 0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="go6-H2-z0Z">
                                 <rect key="frame" x="37" y="324" width="340" height="249"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="208"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="33"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -49,16 +40,13 @@
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="j22-le-EyF" secondAttribute="bottom" constant="100" id="3ah-tx-cLZ"/>
-                            <constraint firstItem="02F-jG-k3e" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="140" id="B3y-8j-xR2"/>
-                            <constraint firstItem="j22-le-EyF" firstAttribute="centerX" secondItem="02F-jG-k3e" secondAttribute="centerX" id="Tzo-k1-ans"/>
-                            <constraint firstItem="02F-jG-k3e" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="37" id="b1l-NK-AtJ"/>
                             <constraint firstItem="go6-H2-z0Z" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="kQp-HM-pSg"/>
                             <constraint firstItem="j22-le-EyF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="r2p-P0-88B"/>
                             <constraint firstItem="go6-H2-z0Z" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" constant="-31" id="snQ-ch-Sii"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="Label" destination="go6-H2-z0Z" id="7ps-2J-0CH"/>
+                        <outlet property="Counterlabel" destination="go6-H2-z0Z" id="XMv-a3-t4V"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
