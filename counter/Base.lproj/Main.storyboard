@@ -16,12 +16,12 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j22-le-EyF">
-                                <rect key="frame" x="145" y="603" width="124.5" height="159"/>
+                                <rect key="frame" x="163" y="603" width="88" height="159"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="159" id="pSa-sI-GFu"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="CLICK">
+                                <buttonConfiguration key="configuration" style="plain" title="TAP">
                                     <fontDescription key="titleFontDescription" name="Farah" family="Farah" pointSize="34"/>
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
